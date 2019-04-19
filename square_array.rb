@@ -6,3 +6,7 @@ def square_array(array)
   end
   squared_numbers
 end
+
+def square_array(array)
+  array.collect do |item|
+    
